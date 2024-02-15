@@ -7,8 +7,7 @@ body{
     background-color: gold;
 }
 .container{
-    /* background-color: yellow; */
-    /* padding: 10rem; */
+    
     padding-top: 5rem;
     padding-left: 4rem;
     padding-right: 4rem;
@@ -16,7 +15,7 @@ body{
 .h1{
     display: grid;
     justify-content: center;
-    /* padding: 3rem; */
+   
     padding-bottom: 2.5rem;
 }
 h1 {
@@ -26,8 +25,7 @@ h1 {
     background-color: whitesmoke;
 }
 .container10{
-    /* border: 2px solid; */
-    /* text-align: center; */
+   
     padding: 0.5rem;
 }
 .containers{
@@ -39,15 +37,14 @@ h1 {
 p{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    /* width: 45ch; */
+    
 }
 .cons {
     display: grid;
     grid-template-areas:
       'header1 header2 header3'
       'footer1 footer2 footer3';
-    /* gap: 10px; */
-   /*  padding: 10px; */
+    
   }
 
   .container1 { grid-area: header1; }
@@ -81,15 +78,9 @@ p{
           'footer1'
           'footer2'
           'footer3';
-        /* gap: 10px; */
-       /*  padding: 10px; */
+      
       }
-      /* .container1 { grid-area: header1; }
-      .container2 { grid-area: header2; }
-      .container3 { grid-area: header3; }
-      .container4 { grid-area: footer1; }
-      .container5 { grid-area: footer2; }
-      .container6 { grid-area: footer3; } */
+      
   }
   
   @media screen and (min-width: 768px){
